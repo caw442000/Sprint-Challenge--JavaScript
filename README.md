@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    Map returns a new array wheras forEach modifies the original array
+
 2. What is the difference between a function and a method?
+
+    A method is associated with an object and all functions are objects
 
 3. What is closure?
 
+    closure is an inner function that has access to the outer functions variables.  closures can store references to outer functions variables.
+
 4. Describe the four rules of the 'this' keyword.
 
+    Global/window binding - this means all javascript
+    Implicit binding - this means whatever is before the dot
+    New Binding - this refers to the specific new instance of a constructor function
+    Explicit binding - when using call and apply methods this is referring to what is in between parentheses.
+
 5. Why do we need super() in an extended class?
+
+    We need super to bind the parent to the child class.
 
 ## Project Set up
 
@@ -45,7 +58,7 @@ Follow these steps to set up and work on your project:
 - [x] Create a forked copy of this project.
 - [x] Add TL as collaborator on Github.
 - [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
